@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class OperateursApp {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		@SuppressWarnings("resource")
 		Scanner scan = new Scanner(System.in);
 		
 		System.out.println("Veuillez saisir le premier nombre ");
